@@ -1,16 +1,63 @@
-# React + Vite
+# Mini Jira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Kanban task management app built with React, Tailwind CSS, and @dnd-kit.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add Task
+- Edit Task
+- Delete Task
+- Drag and Drop
+- Filters
+- Undo Functionality
+- LocalStorage Persistence
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- @dnd-kit
+- Vite
+
+---
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## Folder Structure
+
+```txt
+src/
+├── components/
+├── utils/
+├── data/
+└── App.jsx
+```
+
+---
+
+## Drag and Drop
+
+This project uses `@dnd-kit` for sortable drag-and-drop functionality.
+
+---
+
+## LocalStorage
+
+Tasks are saved automatically in localStorage.
+
+---
+
+## Author
+
+Samreen Kaur
